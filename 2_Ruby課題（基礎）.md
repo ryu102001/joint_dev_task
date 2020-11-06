@@ -105,7 +105,7 @@ array = ["1", "2", "3", "4", "5"]
 ```
 
 ## Q8. 期待する出力結果になるようにコードを書き加えて下さい。
-
+まぁまぁ
 ```
 programming_languages = %w(ruby php python javascript)
 
