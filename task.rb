@@ -100,10 +100,10 @@ def q11
 
   # 以下に回答を記載
   #二次元配列を一次元配列にするー＞重複を消すー＞
-  sports_new = sports.flatten!.uniq!
+  sports.flatten!.uniq!
   puts "ユーザーの趣味一覧"
 
-  sports_new.each.with_index(1) do |sport, i|
+  sports.each.with_index(1) do |sport, i|
     puts "No#{i} #{sport}"
   end
 
